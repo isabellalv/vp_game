@@ -1,0 +1,28 @@
+{
+    "header": {
+        "title": "Visual Perception Similarity Game",
+        "requester": "Contact: serre.lab@gmail.com"
+    },
+
+    "game_settings": {
+        "fixation": "fixation.png",
+        "sorry":"sorry.jpg",
+        "start": "start_image_0.png",
+        "imageDuration": 600,
+        "fixationDuration":800,
+        "trialFeedback":true,
+        "goTrials": ["target repeat", "vig repeat"],
+        "responseKeyCode": 82, 
+        "reward": {
+            "amount": 0.5, 
+            "currency": "USD"
+        }
+    },
+    "images":{"baseUrl":"https://isabellalv.pythonanywhere.com/mturkImages_celeb/"},
+
+    "serverUrl": "https://isabellalv.pythonanywhere.com/",
+
+    "debugMode": {
+        "numTrials": 10
+    }
+}
